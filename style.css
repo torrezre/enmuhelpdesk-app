@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  #checkButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #checkButton:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }

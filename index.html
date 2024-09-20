@@ -1,19 +1,21 @@
-<!--index.html-->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+<html>
+<head>
+  <title>Smart Classroom Checker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Smart Classroom Checker</h1>
+  <label for="building">Building:</label>
+  <input type="text" id="building">
+  
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+  <label for="roomNumber">Room Number:</label>
+  <input type="text" id="roomNumber">
+  <button id="checkButton">Check</button>
+  <p id="result"></p>
+  
+  <script src="script.js"></script>
+</body>
 </html>
+		

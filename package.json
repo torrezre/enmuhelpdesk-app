@@ -2,7 +2,7 @@
   "name": "helpdesk-app",
   "version": "1.0.0",
   "description": "Helpdesk app for easier onboarding and ticket creation",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "start": "electron ."
   },
