@@ -1,0 +1,22 @@
+{
+  "name": "helpdesk-app",
+  "version": "1.0.0",
+  "description": "Helpdesk app for easier onboarding and ticket creation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torrezre/enmuhelpdesk-app.git"
+  },
+  "author": "Renata Torrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torrezre/enmuhelpdesk-app/issues"
+  },
+  "homepage": "https://github.com/torrezre/enmuhelpdesk-app#readme",
+  "devDependencies": {
+    "electron": "^32.1.2"
+  }
+}
